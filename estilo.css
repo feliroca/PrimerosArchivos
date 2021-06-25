@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+a:link {
+    color: #ced4da;
+}
+a:visited {
+    color: #ced4da;    
+}
+a:hover {
+    color: #184e77;
+}
+a:active {
+    color: #0f2d44;
+}
+
+body{
+    background-color: #184e77;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.titulo {
+    color: #ced4da;
+    text-align: center;
+    background-color: #012a4a;
+    padding: 20px;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    margin: 0;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 2;
+}
+
+.logo {
+    position: fixed;
+    height: 70px;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+}
+
+.titulo:hover {
+    color: #969ca1; 
+}
+
+.solapa{
+    background-color:#023b66;
+    padding: 20px;
+    padding-top: 25px;
+    text-align: center;
+    color:white;    
+    margin-top: 68px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+} 
+.solapa a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.estilotexto{
+    color:white; 
+    text-align: left;
+    margin: 0;
+    border: 0px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.footer {
+    color: #ced4da;
+    width: 100%;
+    background-color: #023b66;
+    padding: 10px;
+    text-align: center;
+    bottom: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.contenido {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+.imagenrocketleague {
+    width: 800px;
+    border-radius: 15px;
+}
+
+.imagenrocketleague2 {
+    width: 800px;
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    top: 320px;
+    width: 1030px;
+    height: 275px;
+}
+
+.oferta {
+    text-align: center;
+    color: white;
+    background-color: #032e4e;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.competitivo {
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.rangos{
+    margin: 15px;
+    color: white;
+    list-style: none;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.imagen-rangos {
+    width: 1250px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.descargas {
+    display: flex;
+    gap: 15px;
+}
+
+.imagen-descargas {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.gratis {
+    background-image: url("https://www.enwallpaper.com/wp-content/uploads/rocket-league-wallpaper-158-2160x3840-1-scaled.jpg");
+    width: 30%;
+    border-radius: 15px;
+}
+
+.premium {
+    background-image: url("https://www.xtrafondos.com/wallpapers/vertical/rocket-league-4458.jpg");
+    width: 30%;
+    border-radius: 15px;
+}
+
+.superpremium {
+    background-image: url("https://cutewallpaper.org/21/rocket-league-phone-wallpaper/Rocket-League-Phone-Wallpapers-Album-on-Imgur.jpg");
+    width: 30%;
+    border-radius: 15px;
+}
+
+.descargas {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.descargas ul {
+    list-style: none;
+}
+
+.titulos {
+    text-align: center;
+    margin: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+
+.subtitulos {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.precio {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.descargas hr {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.textoinformativo{
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.descargasboton{
+    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hola {      
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 13px;
+    height: 97%;
+}
+
+.listasbene {
+    margin-left: 5%;
+    margin-bottom: 10%;        
+    line-height: 35px;
+}
+
