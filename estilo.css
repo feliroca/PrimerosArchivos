@@ -69,19 +69,9 @@ body{
 .solapa a{
     margin-left: 20px;
     margin-right: 20px;
+    padding: 30px;
 }
 
-.estilotexto{
-    color:white; 
-    text-align: center;
-    margin: 0px;
-    border: 0px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    padding: 5px;
-    margin-top: 10%;
-
-}
 
 .footer {
     color: #ced4da;
@@ -96,22 +86,25 @@ body{
 .contenido {
     display: flex;
     gap: 15px;
+    justify-content: space-between;
     margin: 15px;
+}
+
+.estilotexto{
+    color:white; 
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 5px;
+    margin-top: 10%;
 }
 
 .imagenrocketleague {
     width: 800px;
     border-radius: 15px;
-}
-
-.imagenrocketleague2 {
-    width: 800px;
-    border-radius: 15px;
-    position: absolute;
-    right: 15px;
-    top: 320px;
-    width: 1030px;
-    height: 275px;
+    transition: 1s;
 }
 
 .oferta {
@@ -121,6 +114,7 @@ body{
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 20px;
+    animation: animacion1 4s infinite;
 }
 
 .competitivo {
@@ -142,6 +136,7 @@ body{
     width: 1250px;
     height: 400px;
     border-radius: 15px;
+    transition: 1s;
 }
 
 
@@ -232,6 +227,9 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(110, 15, 110);
+    color: white;
+    font-size: 20px ;
 }
 
 #hola {      
@@ -253,5 +251,44 @@ body{
 
 .header {
     z-index: 1;
+}
+
+/* ANIMACIONES */
+
+.solapa a:hover {
+
+}
+
+.oferta a:link {
+    animation: animacion1 4s infinite;
+}
+
+.imagenrocketleague:hover {
+    width: 825px;
+    box-shadow: 10px 5px 10px #012a4a;
+}   
+
+.imagen-rangos:hover {
+    width: 1290px;
+    height: 450px;
+    box-shadow: -10px 5px 10px #012a4a;
+}
+
+@keyframes animacion1 {
+    0% {
+        color: chartreuse;
+    }
+    30%{
+        color: crimson;
+    }
+    60%{
+        color: indigo;
+    }
+    80%{
+        color: red;
+    }
+    100%{
+        color: chartreuse;
+    }
 }
 
